@@ -62,3 +62,10 @@ describe('index.js', function() {
     });
   });
 });
+
+const {
+  distanceFromHqInBlocks,
+  distanceFromHqInFeet,
+  distanceTravelledInFeet,
+  calculatesFarePrice
+} = require('./index'); // Ensure the path is correct based on your directory structure
